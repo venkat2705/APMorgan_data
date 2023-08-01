@@ -12,6 +12,16 @@ APMorgan Data Engineering Project
 5. Cloud: When we have vast data it is always better to go with cloud because it is easy to use and scalable. Here we are using Azure cloud environment.
 6. Azure DataBricks: When data is huge the first thing that should come into your mind is Azure DataBricks which is fast and can deal with huge volumes of data.
 
+## Prerequisites
+
+[![Stay Motivated](https://img.shields.io/badge/Stay-Motivated-teal.svg?style=for-the-badge)](https://github.com/venkat2705) [![Keep Learning](https://img.shields.io/badge/Think-Big-orange.svg?style=for-the-badge)](https://www.linkedin.com/in/venkata-ramana-a-/) ![Work Hard](https://img.shields.io/badge/Work-Hard-blue.svg?style=for-the-badge)
+
+There isn't much you need to know to begin with this project but the above.
+
+Additionally, Some knowledge of Cloud (preferably on Azure) should be a benefit. Basic Coding knowledge and SQL knowledge and you are good to go.
+  
+
+
 ## Services that we are going to use in this project.
 
 1. Azure Data Lake Stoage Gen 2 : It is a scalable and secure cloud-based storage service provided by Microsoft Azure. It is designed to store and manage big data in its native format.
