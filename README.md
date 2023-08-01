@@ -1,3 +1,5 @@
+<a href="https://github.com/Anmol-Baranwal/GIFs-For-Readme"><img src="https://forthebadge.com/images/badges/built-with-love.svg" width="130" alt="made with love  markdown badge" ></a>  <a href="https://github.com/Anmol-Baranwal/GIFs-For-Readme">
+
 # APMorgan_data
 APMorgan Data Engineering Project
 
@@ -22,7 +24,8 @@ APMorgan Data Engineering Project
 
 ## Architecture Used
 
-<img width="394" alt="Project2_Archiecture" src="https://github.com/venkat2705/APMorgan_data/assets/60357150/98b7f013-c878-4a14-9d3f-45f6c310f853">
+<img width="394" alt="APMorgan_Archiecture" src="https://github.com/venkat2705/APMorgan_data/assets/60357150/f1d0762c-cf9b-45c5-a928-3a9656bbe7a7">
+
 
 ## High Level Project Flow
 
@@ -32,7 +35,7 @@ Data comes to ADLS Landing Folder --> Goes through ADF Pipeline --> DataBricks (
 
 1. Ingest data into landing folder in ADLS input container. This is the source side of the ADF pipeline.
 2. Now coming to the destination side of the ADF pipeline we need to setup a Databricks file. For that we must set up DataBricks account and then import the attched project (python) file.
-3. It's time to evaluate the data in Databricks. We have to main things to focus on, Duplicate rows and Date Schema. For date schema evaluation we need to set up SQL database(create tables using given SQL script) and import the schema to data bricks for incoming data evaluation.
+3. It's time to evaluate the data in Databricks. We have two main things to focus on, Duplicate rows and Date Schema validation. For date schema evaluation we need to set up SQL database(create tables using given SQL script) and import the schema to data bricks for incoming data evaluation.
 4. Lets create a Key Vault to store all the sensitive information like passwords and tokens.
 5. We need to give required IAM access(like Key Vault Administrator, Key Vault Certificates Officer...etc) in KeyVault to the user to access the secrets from different Azure services.
 6. Final step it to create an ADF pipeline and mount data from ADLS to Databricks to perform necessary validations to segregate data into Staging and rejected folders.
